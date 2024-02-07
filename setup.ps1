@@ -1,5 +1,5 @@
 $DOTFILES = "$HOME\.dotfiles"
-New-Item -Path $HOME\Repositories -ItemType Directory -Force
+# New-Item -Path $HOME\Repositories -ItemType Directory -Force
 
 winget import .\winget\winget.export
 New-Item -Path $HOME\.gitconfig -ItemType SymbolicLink -Value .\git\.gitconfig
