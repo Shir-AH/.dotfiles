@@ -3,7 +3,7 @@ New-Item -Path $HOME\Repositories -ItemType Directory -Force
 
 winget import .\winget\winget.export
 New-Item -Path $HOME\.gitconfig -ItemType SymbolicLink -Value .\git\.gitconfig
-New-Item -Path $HOME\AppData\Local\Microsoft\PowerToys -ItemType SymbolicLink -Value .\PowerToys
+# New-Item -Path $HOME\AppData\Local\Microsoft\PowerToys -ItemType SymbolicLink -Value .\PowerToys
 wsl --install -d Ubuntu
 
 
